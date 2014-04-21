@@ -1,20 +1,35 @@
+
 /*CSS Style Document*/
 
 p {
 	color: red;
-	font-family: sans-serif;
+}
+
+#bigpic {
+	height: 200px;
+	width: 300px;
 }
 
 img {
-	height: 300px;
-	width: 400px;
+	height: 400px;
+	width: 600px;
 }
 
 ul {
 	list-style-type: square;
+	background-color: yellow;
 }
 
 h1 {
-	font-size: 18;
-	font-family: Futura;
+	font-family: "Helvetica Neue", sans-serif;
+}
+
+#notred {
+	color: black;
+}
+
+blockquote {
+	font-family: "Helvetica Neue", sans-serif;
+	font-variant: lighter;
+	color: blue;
 }
